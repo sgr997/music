@@ -4,7 +4,7 @@ import message from '@/utils/message';
 // 创建axios实例
 const instance = axios.create({
 	// 基础路径
-	baseURL: 'https://service-nsjbrcma-1317235276.gz.apigw.tencentcs.com/release/',
+	baseURL: 'https://musicapi.goku.top' + process.env.VUE_APP_API_URL ?? '/',
 	// baseURL: 'http://localhost:3000/',
 	/*
 	  *请求API为本地时将baseURL路径替换为http://localhost:3000/
